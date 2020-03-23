@@ -103,3 +103,10 @@
 	width:36px;
 	height:36px;
 }
+
+.leftpart{
+	weight:100%;
+	height:700px;
+	overflow:auto;
+	
+}

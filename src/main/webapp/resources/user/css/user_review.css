@@ -24,3 +24,13 @@
 	text-align:center;
 	margin:auto;
 }
+
+.tabletitle{
+	background-color:darkgray;
+	border-color:gray;
+}
+
+.tabletitle>th{
+	font-weight: bold;
+    text-align: center;
+}

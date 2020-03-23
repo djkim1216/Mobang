@@ -17,6 +17,7 @@
 
 <title>Insert title here</title>
 <jsp:include page="/WEB-INF/views/user/header.jsp"/>
+
 </head>
 <body>
 
@@ -158,7 +159,7 @@ https://www.w3schools.com/bootstrap/tryit.asp?filename=trybs_temp_blog&stacked=h
     </div>
   </div>
 </div>
-
+<jsp:include page="/WEB-INF/views/user/footer.jsp" />
 
 
 <footer class="container-fluid">

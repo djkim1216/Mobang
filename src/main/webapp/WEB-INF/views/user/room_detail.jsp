@@ -6,8 +6,12 @@
 <meta charset="UTF-8">
 <title>Insert title here</title>
 <jsp:include page="/WEB-INF/views/user/header.jsp"/>
+
 </head>
+
+
 <body>
 
+<jsp:include page="/WEB-INF/views/user/footer.jsp" />
 </body>
 </html>

@@ -64,24 +64,44 @@
 		</form>
 
 
-		<div class="row">
+		<div class="row" style="margin-bottom: 50px;">
 			<div class="col-sm-6">
-
- 			<c:forEach var="room" begin="0" end="8">
-				<div class="room">
-					<div class="favorite"></div>
-					<a>
-						<div class="photo">
-							<img src="resources/user/img/cat4.png">
-							<div class="favorite">
-								<img src="resources/user/img/favorite.png">
-							</div>
+				<div class="leftpart">
+		 			<c:forEach var="room" begin="0" end="10">
+						<div class="room">
+							<div class="favorite"></div>
+							<a>
+								<div class="photo">
+									<img src="resources/user/img/cat4.png">
+									<div class="favorite">
+										<img src="resources/user/img/favorite.png">
+									</div>
+								</div>
+								<p class="explain" id="roomtitle">이천역원룸</p>
+								<p class="explain">가격 저렴</p>
+							</a>
 						</div>
-						<p class="explain" id="roomtitle">이천역원룸</p>
-						<p class="explain">가격 저렴</p>
-					</a>
+					</c:forEach>
 				</div>
-			</c:forEach>
+				<div style="text-align:center;">
+					<ul class="pagination">
+				    <li>
+				      <a href="#" aria-label="Previous">
+				        <span aria-hidden="true">&laquo;</span>
+				      </a>
+				    </li>
+				    <li><a href="#">1</a></li>
+				    <li><a href="#">2</a></li>
+				    <li><a href="#">3</a></li>
+				    <li><a href="#">4</a></li>
+				    <li><a href="#">5</a></li>
+				    <li>
+				      <a href="#" aria-label="Next">
+				        <span aria-hidden="true">&raquo;</span>
+				      </a>
+				    </li>
+				  </ul>
+				 </div>
 			</div>
 			<div class="col-sm-6">
 				<div id="map" style="height: 700px;"></div>
@@ -89,7 +109,12 @@
 		</div>
 
 	</div>
-
+	
+	
+	
+	
+	
+<jsp:include page="/WEB-INF/views/user/footer.jsp" />
 
 	<script type="text/javascript">
 		// 마커를 클릭하면 장소명을 표출할 인포윈도우 입니다

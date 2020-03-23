@@ -68,7 +68,7 @@ public class HomeController {
 		return "user/room_search";
 	}
 	
-	@RequestMapping(value="/review.user")
+	@RequestMapping(value="/user_review.user")
 	public String review(Model model) {
 		
 		
