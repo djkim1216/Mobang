@@ -1,7 +1,10 @@
 
+
 .aa{
 	margin-top:10px;
 	margin-left:20px;
+	color:black;
+	font-weight: 700;
 }
 
 .headerbox {
@@ -11,13 +14,13 @@
     position: relative;
     z-index: 21;
     padding: 0px 30px;
-    border-bottom: 1px solid rgb(235, 235, 235);
+    border-bottom: 3px solid rgb(235, 235, 235);
 }
 
 .myhome{
-	font:sans-serif;
+	color:black;
 	font-size:40px;
-	
+	font-weight:700;
 }
 
 .left{
